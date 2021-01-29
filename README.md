@@ -8,15 +8,15 @@ Work in progress
 # NEEDED: a mask per hemisphere!
 
 # NEEDED: a mask per hemisphere for each ROI
-# List of ROI's:
-# - red nucleus (RN)
-# - ventral pallidum (VP)
-# - anterior commissure (AC)
-# - ansa lenticularis (AL)
-# - internal capsule (IC)
-# - sublenticular internal capsule (sIC)
-# - interthalamic adhesion (ITA)
-# - medial lemniscus (ML)
-# - Sub Thalamic Nucleus (STN)
-# - Substantia Nigra (SN)
-# - Globus Pallidus (GP) 
+List of ROI's:
+- red nucleus (RN)
+- ventral pallidum (VP)
+- anterior commissure (AC)
+- ansa lenticularis (AL)
+- internal capsule (IC)
+- sublenticular internal capsule (sIC)
+- interthalamic adhesion (ITA)
+- medial lemniscus (ML)
+- Sub Thalamic Nucleus (STN)
+- Substantia Nigra (SN)
+- Globus Pallidus (GP) 
