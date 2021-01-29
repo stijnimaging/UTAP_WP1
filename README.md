@@ -4,7 +4,7 @@ Post-mortem 9.4T scanning project which includes DWI and GRE sequences.
 
 A connection with the imaging server is required. 
 
-#Work in progress
+# Work in progress
 
 NEEDED: a mask per hemisphere!
 
