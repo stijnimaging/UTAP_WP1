@@ -2,7 +2,10 @@
 
 Post-mortem 9.4T scanning project which includes DWI and GRE sequences.
 
-A connection with the imaging server is required. 
+General script for processing 9.4T post-mortem imaging data
+Execute the script in the directory that has the ROFT data (e.g. DWI_roft.nii and GRE_roft.nii)
+
+A connection with the imaging server is needed access the files and scripts
 
 # Work in progress
 
