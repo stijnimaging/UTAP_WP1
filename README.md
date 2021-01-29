@@ -7,7 +7,7 @@ Execute the script in the directory that has the ROFT data (e.g. DWI_roft.nii an
 
 A connection with the imaging server is needed access the files and scripts
 
-# Work in progress
+# **Work in progress**
 
 NEEDED: a mask per hemisphere!
 
