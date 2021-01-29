@@ -1,13 +1,13 @@
 # UTAP_WP1
 
-Post-mortem 9.4T scanning project which includes DWI and GRE sequences.
+Post-mortem :brain: 9.4T scanning project which includes DWI and GRE sequences.
 
-General script for processing 9.4T post-mortem imaging data
+General script for processing 9.4T post-mortem :brain: imaging data
 Execute the script in the directory that has the ROFT data (e.g. DWI_roft.nii and GRE_roft.nii)
 
 A connection with the imaging server is needed access the files and scripts
 
-# **Work in progress**
+# Work in progress :construction:
 
 NEEDED: a mask per hemisphere!
 
