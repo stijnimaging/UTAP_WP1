@@ -4,10 +4,10 @@ Post-mortem 9.4T scanning project which includes DWI and GRE sequences.
 
 A connection with the imaging server is required. 
 
-Work in progress
-# NEEDED: a mask per hemisphere!
+$Work in progress
+NEEDED: a mask per hemisphere!
 
-# NEEDED: a mask per hemisphere for each ROI
+NEEDED: a mask per hemisphere for each ROI
 List of ROI's:
 - red nucleus (RN)
 - ventral pallidum (VP)
