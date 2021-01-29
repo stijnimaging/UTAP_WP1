@@ -24,3 +24,4 @@ List of ROI's:
 - Sub Thalamic Nucleus (STN)
 - Substantia Nigra (SN)
 - Globus Pallidus (GP) 
+- locus coeruleus (LC) 
