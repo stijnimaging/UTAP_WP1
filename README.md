@@ -1,4 +1,4 @@
-# UTAP_WP1
+# UTAP Work Package 1
 
 Post-mortem :brain: 9.4T scanning project which includes DWI and GRE sequences.
 
