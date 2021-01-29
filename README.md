@@ -4,8 +4,8 @@ Post-mortem :brain: 9.4T scanning project which includes DWI and GRE sequences.
 
 General scripts for processing 9.4T post-mortem :brain: imaging data
 Execute the script in the directory that has the ROFT data (e.g. DWI_roft.nii and GRE_roft.nii)
-- *** Execute in bash Process_94T_DWI.sh for Diffusion Weighted Imaging data ***
-- *** Execute in bash Process_94T_GRE.sh for T2 weighted data ***
+- :arrow_right: Execute in bash Process_94T_DWI.sh for Diffusion Weighted Imaging data 
+- :arrow_right: Execute in bash Process_94T_GRE.sh for T2 weighted data 
 
 A connection with the imaging server is needed access the files and scripts
 
