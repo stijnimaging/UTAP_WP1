@@ -133,13 +133,13 @@ echo "VentPal_mask_R " `fslstats MASK/Mask_VentPal_mask_R_Painted.nii.gz -V` >> 
 # echo "VentPal_mask_R " `fslstats ../../GRE/S0T2_output/S0T2_exvivo/ExpT2Dec.T2.nii.gz -k MASK/Mask_VentPal_mask_R_Painted.nii.gz -V -M -S` >> Overview_T2_values_R.txt
 
 # Get metrics FA, ADC, Axial/Radial diffusivity, case linear/planar/spherical
-tensor2metric DWI_FOD.mif -fa DWI_FA.mif
-tensor2metric DWI_FOD.mif -adc DWI_adc.mif
-tensor2metric DWI_FOD.mif -ad DWI_ad.mif
-tensor2metric DWI_FOD.mif -rd DWI_rd.mif
-tensor2metric DWI_FOD.mif -cl DWI_cl.mif
-tensor2metric DWI_FOD.mif -cp DWI_cp.mif
-tensor2metric DWI_FOD.mif -cs DWI_cs.mif
+tensor2metric Tensor_Full.mif -fa DWI_FA.mif
+tensor2metric Tensor_Full.mif -adc DWI_adc.mif
+tensor2metric Tensor_Full.mif -ad DWI_ad.mif
+tensor2metric Tensor_Full.mif -rd DWI_rd.mif
+tensor2metric Tensor_Full.mif -cl DWI_cl.mif
+tensor2metric Tensor_Full.mif -cp DWI_cp.mif
+tensor2metric Tensor_Full.mif -cs DWI_cs.mif
 
 
 # Calculate DTI metrics based on the generated tracts
