@@ -1,0 +1,31 @@
+#!/bin/bash
+
+# Put masks in MRTrix mif format
+mrconvert Mask_AntCom_mask_L_Painted.nii.gz Mask_AntCom_mask_L.mif
+mrconvert Mask_AntCom_mask_R_Painted.nii.gz Mask_AntCom_mask_R.mif
+mrconvert Mask_Caudate_mask_L_Painted.nii.gz Mask_Caudate_mask_L.mif
+mrconvert Mask_Caudate_mask_R_Painted.nii.gz Mask_Caudate_mask_R.mif
+mrconvert Mask_GPe_mask_L_Painted.nii.gz Mask_GPe_mask_L.mif
+mrconvert Mask_GPe_mask_R_Painted.nii.gz Mask_GPe_mask_R.mif
+mrconvert Mask_GPi_mask_L_Painted.nii.gz Mask_GPi_mask_L.mif
+mrconvert Mask_GPi_mask_R_Painted.nii.gz Mask_GPi_mask_R.mif
+mrconvert Mask_IntCap_mask_L_Painted.nii.gz Mask_IntCap_mask_L.mif
+mrconvert Mask_IntCap_mask_R_Painted.nii.gz Mask_IntCap_mask_R.mif
+mrconvert Mask_IntThalAdh_mask_L_Painted.nii.gz Mask_IntThalAdh_mask_L.mif
+mrconvert Mask_IntThalAdh_mask_R_Painted.nii.gz Mask_IntThalAdh_mask_R.mif
+mrconvert Mask_LocCoer_mask_L_Painted.nii.gz Mask_LocCoer_mask_L.mif
+mrconvert Mask_LocCoer_mask_R_Painted.nii.gz Mask_LocCoer_mask_R.mif
+mrconvert Mask_Putamen_mask_L_Painted.nii.gz Mask_Putamen_mask_L.mif
+mrconvert Mask_Putamen_mask_R_Painted.nii.gz Mask_Putamen_mask_R.mif
+mrconvert Mask_RedNucl_mask_L_Painted.nii.gz Mask_RedNucl_mask_L.mif
+mrconvert Mask_RedNucl_mask_R_Painted.nii.gz Mask_RedNucl_mask_R.mif
+mrconvert Mask_STN_mask_L_Painted.nii.gz Mask_STN_mask_L.mif
+mrconvert Mask_STN_mask_R_Painted.nii.gz Mask_STN_mask_R.mif
+mrconvert Mask_SubLentIntCap_mask_L_Painted.nii.gz Mask_SubLentIntCap_mask_L.mif
+mrconvert Mask_SubLentIntCap_mask_R_Painted.nii.gz Mask_SubLentIntCap_mask_R.mif
+mrconvert Mask_SubNig_mask_L_Painted.nii.gz Mask_SubNig_mask_L.mif
+mrconvert Mask_SubNig_mask_R_Painted.nii.gz Mask_SubNig_mask_R.mif
+mrconvert Mask_Thalamus_mask_L_Painted.nii.gz Mask_Thalamus_mask_L.mif
+mrconvert Mask_Thalamus_mask_R_Painted.nii.gz Mask_Thalamus_mask_R.mif
+mrconvert Mask_VentPal_mask_L_Painted.nii.gz Mask_VentPal_mask_L.mif
+mrconvert Mask_VentPal_mask_R_Painted.nii.gz Mask_VentPal_mask_R.mif
