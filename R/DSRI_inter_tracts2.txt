@@ -1,0 +1,41 @@
+setwd("~/persistent/VALUES")
+rm(list = ls())
+k <- 1
+
+data_files <- list.files(path="~/persistent/VALUES", pattern="*.tck.txt", full.names=TRUE, recursive=FALSE)
+mean_fa <- data.frame(matrix(ncol = 156, nrow = 156))
+for (i in 1:length(files){
+  if (length(readLines(i)) > 1) {
+  df <- read.table(x, skip = 1,  dec = ".") # Load file
+  name_df <- paste(c("DF_",k), collapse = "")
+  assign(name_df, df)
+  #mean_fa(k,1) <- x
+  #mean_fa(k,2) <- mean(df1)
+  k <- k+1
+  }
+})
+
+
+
+data_files <- list.files(path="~/persistent/VALUES", pattern="*.tck.txt", full.names=TRUE, recursive=FALSE)
+results <- data.frame(file_name = vector(mode = "character", length = length(data_files)))
+results$file_name <- "empty"
+count <- vector(mode = "integer", length = length(data_files))
+fibers <- vector(mode = "integer", length = length(data_files))
+mean_FA <- vector(mode = "integer", length = length(data_files))
+
+for (i in 1:length(data_files)){
+  if (length(readLines(data_files[i])) > 1) {
+  df <- read.table(data_files[i], skip = 1,  dec = ".") # Load file
+  df <- t(df)
+  results$file_name[i] <- substr(data_files[i],25,nchar(data_files[i])-8)
+  results$count[i] <- length(df)
+  results$mean_FA[i] <- mean(df)
+  } else {
+    results$file_name[i] <- substr(data_files[i],25,nchar(data_files[i])-8)
+    #name_file <- substr(data_files[i],24,-10)
+    #row.names(results) <- name_file
+    results$count[i] <- 0
+    results$fibers[i] <- 0
+  }
+}  
